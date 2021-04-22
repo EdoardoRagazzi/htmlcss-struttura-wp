@@ -21,8 +21,9 @@ header{
 
 }
 .sezione2{
+    height: 400px;
     background-color:#0185FF;
-    margin-bottom:20px
+    margin-bottom:20px;
 }
 .sezione2::after{
     content:'';
@@ -45,12 +46,12 @@ header{
 
 .float.center{
     margin: 0 10px;
-    width: calc(50% - 40px);
+    width: calc(50% - 20px);
     background-color:#ABCFE7;
 }
 .float{
     float:left;
-    height: 250px;
+    height: 80%;
     margin-bottom: 20px;
 
 }
