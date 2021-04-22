@@ -3,3 +3,41 @@
     padding:0px;
     box-sizing: border-box;
 }
+/* inizio body */
+body{
+    padding: 0 20px;
+}
+/* inizio header */
+header{
+    height:100px;
+    margin-top: 10px;
+    background-color:purple;
+}
+/* inizio footer */
+footer{
+    height:50px;
+    margin-bottom: 40px;
+    background-color:blueviolet;
+}
+.sezione1{
+    height:100px;
+    margin-top: 5px;
+    background-color:yellow;
+
+}
+.sezione2::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+aside{
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+}
+section{
+    margin: 0 20px;
+    height: 100%;
+    width: calc(50% - 40px);
+    background-color: red;
+}
