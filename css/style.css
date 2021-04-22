@@ -133,6 +133,7 @@ footer span{
 footer span::after{
     content: '\2665';
     color: red;
+    font-size: 30px;
     
 }
 /* fine float */
