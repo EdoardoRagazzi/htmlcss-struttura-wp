@@ -44,7 +44,7 @@ header{
 }
 
 .float.center{
-    margin: 0 20px;
+    margin: 0 10px;
     width: calc(50% - 40px);
     background-color:#ABCFE7;
 }
